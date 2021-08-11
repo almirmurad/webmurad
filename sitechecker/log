@@ -1,0 +1,150 @@
+checking site ....
+	base: http://webmurad.com.br
+	Getting robots.txt for: webmurad.com.br
+	title: WEB MURAD-DESENVOLVIMENTO WEB
+	adding image: http://webmurad.com.br/imgs/logomarca.png
+	adding image: http://webmurad.com.br/imgs/logotipo.png
+	adding image: http://webmurad.com.br/s3Slider Full/imgs/1.jpg
+	self.status: 104: Connection reset by peer
+	self.url: http://webmurad.com.br/s3Slider Full/imgs/1.jpg
+	adding image: http://webmurad.com.br/s3Slider Full/imgs/2.jpg
+	self.status: -1: 
+	self.url: http://webmurad.com.br/s3Slider Full/imgs/2.jpg
+	adding image: http://webmurad.com.br/s3Slider Full/imgs/3.jpg
+	self.status: -1: 
+	self.url: http://webmurad.com.br/s3Slider Full/imgs/3.jpg
+	adding image: http://webmurad.com.br/s3Slider Full/imgs/4.jpg
+	self.status: -1: 
+	self.url: http://webmurad.com.br/s3Slider Full/imgs/4.jpg
+	adding image: http://webmurad.com.br/s3Slider Full/imgs/5.jpg
+	self.status: -1: 
+	self.url: http://webmurad.com.br/s3Slider Full/imgs/5.jpg
+	adding image: http://jigsaw.w3.org/css-validator/images/vcss
+	adding image: http://www.w3.org/Icons/valid-xhtml10
+adding url: http://webmurad.com.br/
+	title: WEB MURAD-DESENVOLVIMENTO WEB
+adding url: http://webmurad.com.br/index.php
+	title: WEB MURAD-DESENVOLVIMENTO WEB
+adding url: http://webmurad.com.br/servicos.php
+	title: WEB MURAD-DESENVOLVIMENTO WEB
+adding url: http://webmurad.com.br/portifolio.php
+	title: WEB MURAD-SOLUÇÕES WEB
+	adding image: http://webmurad.com.br/imgs/mega_img.png
+	adding image: http://webmurad.com.br/imgs/wata_img.png
+	adding image: http://webmurad.com.br/imgs/gomes_img.png
+	adding image: http://webmurad.com.br/imgs/casamento_img.png
+	adding image: http://webmurad.com.br/imgs/leao_img.png
+adding url: http://webmurad.com.br/parceiros.php
+	title: WEB MURAD-SOLUÇÕES WEB
+adding url: http://webmurad.com.br/contato.php
+	title: WEB MURAD-DESENVOLVIMENTO WEB
+adding url: http://jigsaw.w3.org/css-validator/check/referer
+	self.status: 403: Forbidden
+	self.url: http://jigsaw.w3.org/css-validator/check/referer
+adding url: http://validator.w3.org/check?uri=referer
+	title: Validation Results - W3C Markup Validator
+adding url: http://www.lojawatanabe.com.br/
+	title: Loja Watanabe Aqui Você Encontra o que Procura!>
+adding url: http://www.webmurad.com.br/casamento
+	Redirected to: http://www.webmurad.com.br/casamento/
+	title: ALMIR E RAFAELA
+adding url: http://webmurad.com.br/admin/ler_destaques.php?destaque=sim&codigo=10
+	title: None
+	adding image: http://webmurad.com.br/admin/imgs/google-espia-portada
+	self.status: 404: Not Found
+	self.url: http://webmurad.com.br/admin/imgs/google-espia-portada
+adding url: http://webmurad.com.br/admin/ler_destaques.php?destaque=sim&codigo=11
+	title: None
+	adding image: http://webmurad.com.br/admin/imgs/911427951169547.jpg
+adding url: http://webmurad.com.br/admin/ler_noticias.php?codigo=10
+	title: None
+adding url: http://webmurad.com.br/admin/ler_noticias.php?codigo=11
+	title: None
+done.
+Generating reports...
+	sitemap
+	badlinks
+	images
+	whatsold
+	whatsnew
+	slow
+	notitles
+	external
+	notchkd
+	problems
+done.
+checking site ....
+	base: http://webmurad.com.br
+	Getting robots.txt for: webmurad.com.br
+	title: WEB MURAD-DESENVOLVIMENTO WEB
+	adding image: http://webmurad.com.br/imgs/logomarca.png
+	adding image: http://webmurad.com.br/imgs/logotipo.png
+	adding image: http://webmurad.com.br/s3Slider Full/imgs/1.jpg
+	self.status: 104: Connection reset by peer
+	self.url: http://webmurad.com.br/s3Slider Full/imgs/1.jpg
+	adding image: http://webmurad.com.br/s3Slider Full/imgs/2.jpg
+	self.status: -1: 
+	self.url: http://webmurad.com.br/s3Slider Full/imgs/2.jpg
+	adding image: http://webmurad.com.br/s3Slider Full/imgs/3.jpg
+	self.status: -1: 
+	self.url: http://webmurad.com.br/s3Slider Full/imgs/3.jpg
+	adding image: http://webmurad.com.br/s3Slider Full/imgs/4.jpg
+	self.status: -1: 
+	self.url: http://webmurad.com.br/s3Slider Full/imgs/4.jpg
+	adding image: http://webmurad.com.br/s3Slider Full/imgs/5.jpg
+	self.status: -1: 
+	self.url: http://webmurad.com.br/s3Slider Full/imgs/5.jpg
+	adding image: http://jigsaw.w3.org/css-validator/images/vcss
+	adding image: http://www.w3.org/Icons/valid-xhtml10
+adding url: http://webmurad.com.br/
+	title: WEB MURAD-DESENVOLVIMENTO WEB
+adding url: http://webmurad.com.br/index.php
+	title: WEB MURAD-DESENVOLVIMENTO WEB
+adding url: http://webmurad.com.br/servicos.php
+	title: WEB MURAD-DESENVOLVIMENTO WEB
+adding url: http://webmurad.com.br/portifolio.php
+	title: WEB MURAD-SOLUÇÕES WEB
+	adding image: http://webmurad.com.br/imgs/mega_img.png
+	adding image: http://webmurad.com.br/imgs/wata_img.png
+	adding image: http://webmurad.com.br/imgs/gomes_img.png
+	adding image: http://webmurad.com.br/imgs/casamento_img.png
+	adding image: http://webmurad.com.br/imgs/leao_img.png
+adding url: http://webmurad.com.br/parceiros.php
+	title: WEB MURAD-SOLUÇÕES WEB
+adding url: http://webmurad.com.br/contato.php
+	title: WEB MURAD-DESENVOLVIMENTO WEB
+adding url: http://jigsaw.w3.org/css-validator/check/referer
+	self.status: 403: Forbidden
+	self.url: http://jigsaw.w3.org/css-validator/check/referer
+adding url: http://validator.w3.org/check?uri=referer
+	title: Validation Results - W3C Markup Validator
+adding url: http://www.lojawatanabe.com.br/
+	title: Loja Watanabe Aqui Você Encontra o que Procura!>
+adding url: http://www.webmurad.com.br/casamento
+	Redirected to: http://www.webmurad.com.br/casamento/
+	title: ALMIR E RAFAELA
+adding url: http://webmurad.com.br/admin/ler_destaques.php?destaque=sim&codigo=10
+	title: None
+	adding image: http://webmurad.com.br/admin/imgs/google-espia-portada
+	self.status: 404: Not Found
+	self.url: http://webmurad.com.br/admin/imgs/google-espia-portada
+adding url: http://webmurad.com.br/admin/ler_destaques.php?destaque=sim&codigo=11
+	title: None
+	adding image: http://webmurad.com.br/admin/imgs/911427951169547.jpg
+adding url: http://webmurad.com.br/admin/ler_noticias.php?codigo=10
+	title: None
+adding url: http://webmurad.com.br/admin/ler_noticias.php?codigo=11
+	title: None
+done.
+Generating reports...
+	sitemap
+	badlinks
+	images
+	whatsold
+	whatsnew
+	slow
+	notitles
+	external
+	notchkd
+	problems
+done.
