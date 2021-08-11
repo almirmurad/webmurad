@@ -1,167 +1,98 @@
-﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html lang="pt-br">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<link rel="stylesheet" type="text/css" href="estilos/style.css" />
-<style type="text/css">
-form{
-	width:600px;
-	height:auto;
-	margin:0 auto;
-	background:#EEEEEE;
-	padding:5px;
-	}
-	
-form fieldset{
-	border:none;
-	}
-	
-form fieldset legend{
-	float:left;
-    width:200px;
-	display:block;
-	margin-right:400px;
-	font:bold 16px Arial, Helvetica, sans-serif;
- 	color:#333333;		
-	}
-
-form label{
-	width:500px;
-    display:block;
-    float:left;
-    margin-left:30px;
-    padding:5px 0;
-	}	
-	
-form label span{
-	font:bold 12px Arial, Helvetica, sans-serif;
- 	color:#333333;
-	float:left;
-	}	
-	
-.campos{
-	background:#FC0;
-	border:3px solid #333333;
-	width:200px;
-	float:left;
-	font-weight:bold;
-    color: #FFF;
-	}	
-
-.btn{
-	background:#FC0;
-	border:3px solid #333333;
-	width:100px;
-    margin:10px;
-	font-weight:bold;
-    color: #FFF;
-	}	
-	
-hr{
-	widows:900px;
-	border:1px dotted #ccc;
-	}	
-	
-</style>
-<title>WEB MURAD-DESENVOLVIMENTO WEB</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/estilo.css">
+    <link rel="stylesheet" href="assets/css/form.css">
+    <link rel="shortcut icon" href="assets/img/favicon.png">
+    <link href="assets/fontawesome/css/all.css" rel="stylesheet"> <!--load all styles -->
+    
+    <title>***| Web Murad - Desenvolvimento Web |***</title>
 </head>
-
 <body>
-<?php include_once("analyticstracking.php") ?>
-<div id="wrap">
- 
+<!-- inicio header -->
 <?php
-include('top.php');
-//include('admin/conexao.php');
+$page = "contato";
+include ('assets/php/includes/header.php');
 ?>
-<div id="service">
-     <h2>Contato</h2>
-     <p class="p">Entre em contato conosco, será um prazer tê-lo como cliente:     </p>  
-     <h3 align="left">Fone: (13) 99166-1371</h3>
-     <br />
-     <p class="p">Se prefirir encaminhe um e-mail para <mailto> contato@webmurad.com.br </mailto> ou preencha o formulário a seguir</p>  
+<!-- fim header -->
+<main>
+<!-- inicio banner -->    
+<?php
+include ('assets/php/includes/banner.php');
+?>
+<!-- fim banner -->
 
-     <!-- Inicio form hubspot !--> 
-     <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/shell.js"></script>
-<script>
-  hbspt.forms.create({
-  region: "na1",
-  portalId: "19958279",
-  formId: "aeb680e4-c7a7-4fed-9b98-5a748d6cc287"
-});
-</script>
-<!-- fim form hubspot!-->
-                <!--  <form id='form_contato' action="envia_contato.php" method="post" name="form_contato">
-                   <fieldset>
-                     <legend>Formulário de Contato:</legend>
-                       <label>
-                        <span>NOME:</span>
-                        <input type="text" id="nome" name="nome" maxlength="60" size="40" class="campos" />
-                       </label>
-                         <label>
-                        <span>E-mail:</span>
-                        <input type="text" id="email" name="email" maxlength="60" size="40" class="campos" />
-                       </label>
-                        <label>
-                        <span>Telefone com DDD: </span><span class="ex">Exemplo:1334264136</span>
-                        <input type="text" id="telefone" name="telefone" maxlength="10" size="40" class="campos" />
-                       </label>
-                        <label>
-                        <span>Celular com DDD: </span><span class="ex">Exemplo:1392113169</span>
-                        <input type="text" id="celular" name="celular" maxlength="60" size="40" class="campos" />
-                       </label>
-                        <label>
-                        <span>Descreva qual o motivo de seu contato</span>
-                        <textarea id="msg" name="msg" rols="30" cols="30" class="campos">
-                        </textarea>
-                        </label>
-                        <input type="submit" value="ENVIAR" class="btn" />
-                        <input type="reset" value="LIMPAR" class="btn" />
-                   </fieldset>
-                  </form>!-->
+<section id="contato">
+    <div class="container">
+        <div class="contentContato">
+            <div class="contContato">
+            <h2>Contato:</h2>
+                <p>(41) 98902-1385</p>                
+                    <h2>E-mail:</h2>
+                        <p>contato@webmurad.com.br</p>
+                    <h2>Endereço:</h2>
+                        <p>Rua: Emilia M. Uba 325 - Blc 01 - Apto 31
+                            Cachoeira - Curitiba - PR
+                            CEP: 82710-450</p>
+                <div class="map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3605.4577734143522!2d-49.25524868515115!3d-25.3559699838226!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94dce7aa706fe041%3A0x55920847759842dc!2sR.%20Em%C3%ADlia%20M%20Ub%C3%A1%2C%20325%20-%20Cachoeira%2C%20Curitiba%20-%20PR%2C%2082710-450!5e0!3m2!1spt-BR!2sbr!4v1627581547206!5m2!1spt-BR!2sbr" 
+                    width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe></div>
+            </div>
+            <div class="formulario">
+                <form action="envia.php" method="POST">
+                    <fieldset>
+                        <legend>Formulário de contato</legend>
+                        <label for="nome">Nome:</label>
+                        <input type="text" name="nome" placeholder="Digite seu nome" id="nome" />
+
+                        <label for="email">E-mail:</label>
+                        <input type="text" name="email" placeholder="Digite seu e-mail" id="email" />
+
+                        <label for="fone">Telefone:</label>
+                        <input type="tel" name="fone" placeholder="Digite seu telefone" id="fone" />
+
+                        <label for="mensagem">Mensagem:</label>
+                        <textarea rows="6" name="mensagem" id="mensagem" placeholder="Escreva sua mensagem"></textarea>
+                        <input type="checkbox" id="concentimento" required>
+                        <label for="concentimento" >Eu concordo com envio do formulário.</label>
+                        <button type="submit">Enviar</button>
+                        
+
+                    </fieldset>
+                </form>
+            </div>
+
+        </div>
+    </div>
+
+</section>
+<!-- inicio slide -->
+<?php
+include('assets/php/includes/slide.php');
+?>
+<!-- fim slide -->
+
+<!-- botão whats -->
+<?php
+include('assets/php/includes/whatsapp.php');
+?>
+<!-- include portfólio -->
 
 
+</section>
+<!-- imagem surpreenda-se -->
+<section id="destaque2">
 
-</div>
-  						<div id="siderbar">
-					   
-					      <ul>
-                            <?php
-							//include('ler_destaques.php');
-							?>
-						  </ul>
-						  
-    			        </div>            
-            <div id="cont">
- 
-          <hr />     
-                     
-         <?php 
-		include('conteudo.php');
-		 ?>       
-                
-         <hr class="hr" />
-         
-         <div id="footer">
-         
-         <div id="contfooter">
-       
-       <p>
-    <a href="http://jigsaw.w3.org/css-validator/check/referer">
-        <img style="border:0;width:88px;height:31px"
-            src="http://jigsaw.w3.org/css-validator/images/vcss"
-            alt="CSS válido!" />
-    </a>
-</p>
-                 <p>
-    <a href="http://validator.w3.org/check?uri=referer"><img
-      src="http://www.w3.org/Icons/valid-xhtml10" alt="Valid XHTML 1.0 Transitional" height="31" width="88" /></a>
-  </p>
-         </div>
-  </div> 
-         
-</div>
-        
-                
+</section>
+<!-- fim surpreenda-se -->
+</main>
+<?php
+include ('assets/php/includes/footer.php');
+?>
+
+
 </body>
 </html>
