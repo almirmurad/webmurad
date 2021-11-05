@@ -29,19 +29,16 @@ include ('assets/php/includes/banner.php');
     <div class="container">
         <div class="contentContato">
             <div class="contContato">
-            <h2>Contato:</h2>
+                <h2>Fone/Whatsapp:</h2>
                 <p>(41) 98902-1385</p>                
-                    <h2>E-mail:</h2>
-                        <p>contato@webmurad.com.br</p>
-                    <h2>Endereço:</h2>
-                        <p>Rua: Emilia M. Uba 325 - Blc 01 - Apto 31
-                            Cachoeira - Curitiba - PR
-                            CEP: 82710-450</p>
-                <div class="map">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3605.4577734143522!2d-49.25524868515115!3d-25.3559699838226!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94dce7aa706fe041%3A0x55920847759842dc!2sR.%20Em%C3%ADlia%20M%20Ub%C3%A1%2C%20325%20-%20Cachoeira%2C%20Curitiba%20-%20PR%2C%2082710-450!5e0!3m2!1spt-BR!2sbr!4v1627581547206!5m2!1spt-BR!2sbr" 
-                    width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe></div>
+                <h2>E-mail:</h2>
+                <p>contato@webmurad.com.br</p>
+                
+                
+                
             </div>
-            <div class="formulario">
+            
+            <div class="contForm">        
                 <form action="envia.php" method="POST">
                     <fieldset>
                         <legend>Formulário de contato</legend>
@@ -64,6 +61,8 @@ include ('assets/php/includes/banner.php');
                     </fieldset>
                 </form>
             </div>
+           
+            
 
         </div>
     </div>
