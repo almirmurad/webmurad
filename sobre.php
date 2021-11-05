@@ -115,7 +115,7 @@ include ('assets/php/includes/banner.php');
 <!-- botão whats -->
 <?php
 include('assets/php/includes/whatsapp.php');
-?>v>
+?>
 
 
 
@@ -128,7 +128,10 @@ include('assets/php/includes/whatsapp.php');
 <?php
 include ('assets/php/includes/footer.php');
 ?>
-
+    <script src="assets/js/functions.js"></script>
+    <script>
+        var hide = document.getElementById("navMobile").style.display === "none";
+    </script>
 
 </body>
 </html>

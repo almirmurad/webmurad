@@ -54,7 +54,9 @@
 
 .container{
     display: flex;
-    width: 990px;    
+    width:100%;
+    max-width: 990px;   
+    margin: 0 10px; 
 }
 .column{
     flex-direction: column;
@@ -65,13 +67,13 @@
 .contato{
     display: flex;
     justify-content: center;
-    flex: 1;
     background-color: #0d0d0d;
     color:#D3D3D3;
     width: 100vw;
 }
 .contato .container{
-    justify-content: space-between;    
+    justify-content: space-between;
+    margin: 0 10px;    
 }
 .fone,
 .socialMedia{
@@ -102,14 +104,16 @@ header .container{
     display: none;
 }
 
-.logo,
-.menu{
-    display: flex;
+/*** logotipo ***/
+
+.logo{
+    max-width:460px;
+    margin:20px 0;
 }
 .logo img{
-    margin:20px 0;
-
+    width: 100%;
 }
+
 .menu{
     display: flex;
     flex: 1;
@@ -878,6 +882,7 @@ footer .container {
 .valores{
     display: flex;
     max-width: 280px;
+    min-width: 280px;
     height: 300px;
     background-color: #0d0d0d;
     margin: -50px 10px 20px 10px;
@@ -922,23 +927,14 @@ footer .container {
 }
 /*********** media Querys ***********/
 
-/*mobile*/
-@media (max-width:500px){
-    header .container{
-        display: flex;
-        
-    }
-    .logo {
-        flex-direction: row;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        width: 100vw;
-    }
+
+@media (min-width:300px) and (max-width:550px){
     header .container .logo img{
         display: flex;
         max-width:300px;
     }
+
+/* esconde menu desktop e mostra o menu mobile */    
     header .container .showNav{
         display: flex;
        
@@ -986,6 +982,7 @@ footer .container {
         color: #F29F05;
         font-weight: bold;
     }
+
     #navMobile ul li a:hover{
        border-bottom: 3px solid #F29F05;
     }
@@ -994,7 +991,6 @@ footer .container {
         right: 10px;
     }
 
-   
     #whatsapp .icone{
         display: flex;
         width: 80px;
@@ -1025,15 +1021,19 @@ footer .container {
     .menu{
         display: none;
     }
-    #banner .container{
-        justify-content: center;
-        align-items: center;
-        text-align: center;
+
+/* ajusta o banner principal*/
+   #banner .container{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
     }
     #banner .container h2{
         font-size: 1.8em;
         padding: 10px;
     }
+    
+/* ajusta a section info */
     #info{
         height: auto;
     }
@@ -1052,68 +1052,80 @@ footer .container {
         max-width: 100%;
         border:0;
     }
+
+/* ajusta a section content que abrange os cards */
     #content{
-        margin:280px 10px 30px 10px;
+        margin:400px 0 30px 0;
 
     }
     #content .container{
-
         flex-direction: column;
     }
-
+    
+/* ajusta os cards  */
+    .card,
+    .card:hover{
+        margin-left: 0;
+        margin-right: 0;
+    }
+ 
+/* ajusta o aside  */
     aside{
-        max-width: 420px;
+        min-width:100%;
         margin-top: 30px;
+        margin-left:0;
+        margin-right: 0;
     }
     aside .ultimas, 
     aside .parceiros{
-        max-width: 420px;
+        min-width: 100%;
   
     }
-    .contentParceiros div{
-        min-width: 100%;
-    }
-    #cards{
-        flex-direction: column;
-        flex: 1;
-    }
+/* ajusta o responsivo  */
     #responsivo{
         height: 800px;
     }
+    .txt_resp{
+        flex:none;
+        width: 100%;
+    }
+    
+/* ajusta o portfólio  */
     #portfolio{
         height: auto;
         padding: 10px;
-    }
+    } 
 
-#destaque2{
-    margin: 0 0 300px 0;
-    display:block;
-}
 
+
+/* ajusta o footer  */
     footer{
-        max-width: 420px;
-        display: flex;
-        align-items: center;
+        height: auto;
+        display: flex;   
         flex-direction: column;
-        margin-top: 10px;
-    }
+    }   
+    
+/* ajusta o foo1,2,3  */
     footer .foo1, 
     footer .foo2, 
     footer .foo3{
         height: auto;
+        display: flex;       
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    } 
 
-    }
     footer .foo1 .container, 
     footer .foo2 .container, 
     footer .foo3 .container{
         display: flex;
         justify-content: center;
         align-items: center;
-        flex-direction: column;
-        max-width: 420px;
+        flex-direction: column;  
         padding: 3px;
-        
     }
+
     footer .foo1 .container .help,
     footer .foo1 .container .fooLinks,
     footer .foo1 .container .fooSelo,
@@ -1130,8 +1142,7 @@ footer .container {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        height: auto;
-       
+        height: auto;  
     }
     footer .foo1 .container .help .helpContatcs{
         display: flex;
@@ -1141,8 +1152,7 @@ footer .container {
     }
     footer .foo1 .container .help .contacts ul{
         display: flex;
-        max-width:100%;
-        
+        max-width:100%;      
         flex-direction: column;
         justify-content: center;
         align-items: center;
@@ -1155,66 +1165,72 @@ footer .container {
         align-items: center;
     }
     footer .foo1 .container .help .helpContatcs .fooHelpTitle{
-
         max-width: 420px;
         justify-content: center;
         display: flex;
-
     }
     footer .foo2 .container .left ul,
     footer .foo2 .container .middle ul,
     footer .foo2 .container .right ul{
-        text-align: center;
-        
-       
+        text-align: center;  
     }
     footer .foo3 .container .right p{
         text-align: center;
     }
-
     .missao,
-.visao,
-.valores{
-    margin: 25px 10px 25px 10px;
+    .visao,
+    .valores{
+        margin: 25px 10px 25px 10px;
+    }
+    .missao{
+        margin-top: -50px;
+    }
 
 }
-.missao{
-    margin-top: -50px;
-}
-}
 
-/* tablet */
 
-@media (min-width:426px) and (max-width:768px){
-   
+
+
+
+@media (max-width:960px) {
+    #cards{
+        flex-direction: column;
+        flex: 1;
+    }
+    aside{
+        max-width:350px;
+    }
+}
+@media (max-width:830px){
     #info{
         height: auto;
     }
-    #info .container{
-        max-width: 100vw;
-    }
-    #info .infoTop{
+    .infoTop{
+        
+        display: flex;
         flex-direction: column;
     }
     .infoBox{
-        max-width: 100vw;
+        max-width: 100%;
         height: auto;
+       
     }
+}
+@media (max-width:779px){
     #content{
-            margin: 200px 10px 10px 10px;
+        margin-top:250px;
     }
-    .contentParceiros div{
-        min-width: 100%;
+    .missao,
+    .visao,
+    .valores{
+        margin: 50px 10px 25px 10px;
     }
-    
-}
-
-/* Desktops */
-
-@media (min-width:920px){
-    .divisorBordaEsq{
-        border-left: 0;
-    }
+  
 
 }
+@media (max-width:760px){
+    #content{
+        margin-top:280px;
+    }
 
+}
