@@ -1,4 +1,11 @@
-<?php
+<?php 
+session_start();
+if(!isset($_SESSION['captcha'])){
+    $n = rand(1000, 9999);
+    $_SESSION['captcha'] = $n;
+}
+
+
 require_once('assets/php/includes/head.php');
 ?>
 <body>
@@ -45,6 +52,25 @@ include ('assets/php/includes/banner.php');
                         <textarea rows="6" name="mensagem" id="mensagem" placeholder="Escreva sua mensagem"></textarea>
                         <input type="checkbox" id="concentimento" required>
                         <label for="concentimento" >Eu concordo com envio do formulário.</label>
+                        <br/>
+                        <label for="codigo">Não sou um Robô:</label>
+
+                        <?php
+                        $flash = $_SESSION['mensagem'];
+
+                        if(isset($flash) && !empty($flash)){
+                            echo '<div style="padding:5px 10px;border:3px solid red; background-color:#F29F05;color:white;">
+                            '.$flash.'</div>';
+                            $n = rand(1000, 9999);
+                            $_SESSION['captcha'] = $n;
+                            $_SESSION['mensagem'] = "";
+                        }
+                        ?>
+
+                        <img src="assets/php/includes/captchaImg.php" width="80" height="35" /><br/>
+                        <input type="text" name="codigo" placeholder="Digite o código acima" id="codigo" required />
+
+
                         <button type="submit">Enviar</button>
                         
 
