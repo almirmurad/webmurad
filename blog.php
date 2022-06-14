@@ -1,15 +1,6 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/css/estilo.css">
-    <link rel="shortcut icon" href="assets/img/favicon.png">
-    <link href="assets/fontawesome/css/all.css" rel="stylesheet"> <!--load all styles -->
-    
-    <title>***| Web Murad - Desenvolvimento Web |***</title>
-</head>
+<?php
+require_once('assets/php/includes/head.php');
+?>
 <body>
 <!-- inicio header -->
 <?php
@@ -25,7 +16,112 @@ include ('assets/php/includes/banner.php');
 <!-- fim banner -->
 
 <!-- include conteúdo (cards/aside) -->
-    <h2 style="text-align: center; margin:150px auto; font-size:2em;">Página em desenvolvimento!</h2>
+    
+
+
+<div class="container">
+
+
+            <div class="destaque-blog w-100 d-flex justify-content-center bg-warning">
+                
+                <div class="destaque-blog-titleArea">
+                    <h2 class="destaque-blog-title">Título de teste em HTML</h2>
+                </div>
+
+                <div class="destaque-blog-descriptionArea">
+                    <h4 class="destaque-blog-description">Descrição do blog em destaque aqui</h4>
+                </div>
+
+                <div class="destaque-blog-actionsArea">
+
+                    <div class="read-more"> 
+                        <a href="#">Leia mais</a>
+                    </div>
+                    <div class="author">
+                        POSTADO POR: Almir Murad - Administrador
+                    </div> 
+
+                </div>
+
+            </div>
+
+</div>
+
+<div class="container">
+  <div class="row row-cols-3">
+        <div class="col">
+            <div class="destaque-blog">
+                <div class="destaque-blog-titleArea">
+                    <h2 class="destaque-blog-title">Título de teste em HTML</h2>
+                </div>
+                <div class="destaque-blog-descriptionArea">
+                    <h4 class="destaque-blog-description">Descrição do blog em destaque aqui</h4>
+                </div>
+                <div class="destaque-blog-actionsArea">
+                    <div class="read-more"> 
+                        <a href="#">Leia mais</a>
+                    </div>
+                    <div class="author">POSTADO POR: Almir Murad - Administrador</div>  
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="destaque-blog">
+                <div class="destaque-blog-titleArea">
+                    <h2 class="destaque-blog-title">Título de teste em HTML</h2>
+                </div>
+                <div class="destaque-blog-descriptionArea">
+                    <h4 class="destaque-blog-description">Descrição do blog em destaque aqui</h4>
+                </div>
+                <div class="destaque-blog-actionsArea">
+                    <div class="read-more"> 
+                        <a href="#">Leia mais</a>
+                    </div>
+                    <div class="author">POSTADO POR: Almir Murad - Administrador</div>  
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="destaque-blog">
+                <div class="destaque-blog-titleArea">
+                    <h2 class="destaque-blog-title">Título de teste em HTML</h2>
+                </div>
+                <div class="destaque-blog-descriptionArea">
+                    <h4 class="destaque-blog-description">Descrição do blog em destaque aqui</h4>
+                </div>
+                <div class="destaque-blog-actionsArea">
+                    <div class="read-more"> 
+                        <a href="#">Leia mais</a>
+                    </div>
+                    <div class="author">POSTADO POR: Almir Murad - Administrador</div>  
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="destaque-blog">
+                <div class="destaque-blog-titleArea">
+                    <h2 class="destaque-blog-title">Título de teste em HTML</h2>
+                </div>
+                <div class="destaque-blog-descriptionArea">
+                    <h4 class="destaque-blog-description">Descrição do blog em destaque aqui</h4>
+                </div>
+                <div class="destaque-blog-actionsArea">
+                    <div class="read-more"> 
+                        <a href="#">Leia mais</a>
+                    </div>
+                    <div class="author">POSTADO POR: Almir Murad - Administrador</div>  
+                </div>
+            </div>
+        </div>
+  </div>
+</div>
+
+
+    
+
+
+
+
 <?php
 //include('assets/php/includes/content.php');
 ?>
