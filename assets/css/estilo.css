@@ -948,6 +948,11 @@ footer .container {
 .contContato,
 .contSobre{
     margin: 50px 0;
+    padding: 20px;
+    justify-content: space-around;
+    flex-direction: column;
+    /* background-color: green; */
+    display: flex;
 }
 /*********** media Querys ***********/
 
