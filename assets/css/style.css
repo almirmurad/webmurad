@@ -1,50 +1,43 @@
+/********** Globais ***********/
 :root{
     --black-color:#0d0d0d;
-    --orange-color:#CA8506;
+    --orange-dark-color:#CA8506;
+    --orange-clean-color:#F29F05;
     --grey-clean-color:#F2F2F2;
     --grey-medium-color:#D3D3D3;
     --grey-foot1-color:#4F4F4F;
     --grey-foot2-color:#363636;
     --grey-foot-title-color:#777777;
     --white-color:#FFF;
-}
-.acima-cabecalho{
-    background-color: var(--black-color);
-}
-.acima-cabecalho span, .acima-cabecalho a{
-    color:var(--grey-clean-color);
-    margin: 0px;
-}
 
-.header{
-    border-bottom: 4px solid var(--black-color);
+    --bx-shdw :0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    --txt-shdw: 0 0 4px var(--black-color);
 }
+/********** reset ***********/
 
-.nav-item{  
-    margin: 0px 5px;
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    box-sizing: border-box;
 }
-.nav-link{
-    padding: 5px;
-    color: var(--black-color);
+.container{
+    display: flex;
+    width:100%;
+    max-width: 990px;   
+    margin:0 5px;
 }
-
-.nav-link:hover{
-    background-color: var(--black-color);
-    color: var(--grey-clean-color);
+.column{
+    flex-direction: column;
 }
- .active{
-    background-color: var(--black-color);
-    color: var(--grey-clean-color);
+.flex{
+    display: flex;
 }
-.banner{
-    background-color:var(--grey-foot1-color);
-    height: 500px;
-}
-.info{
-    background-color: #0d0d0d;
-    color: var(--grey-clean-color);
-}
-.card{
-    width:250px;
-    color:var(--black-color);
+#banner,
+#content,
+#info,
+#portfolio,
+#responsivo{
+    width:100%;
 }

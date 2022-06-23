@@ -4,10 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/css/estilo.css">
-    <link rel="stylesheet" href="assets/css/form.css">
+    <link rel="stylesheet" href="assets/css/main.css">
     <link rel="shortcut icon" href="assets/img/favicon.png">
-    <link href="assets/fontawesome/css/all.css" rel="stylesheet"> <!--load all styles -->
     <!--Social Sharing -->
     <meta property="og:url" content="https://www.webmurad.com.br"/>
     <meta property="og:locale" content="pt_BR" />

@@ -1,0 +1,338 @@
+/*********** media Querys ***********/
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (max-width: 576px) { 
+    .contato .container{
+        flex-direction: column;
+    }
+    header .container .logo img{
+        display: flex;
+        width:100%;
+        max-width:290px;
+    }
+    
+/* esconde menu desktop e mostra o menu mobile */    
+    header .container .showNav{
+        display: flex;
+        position: fixed;
+        top:65px;
+        right: 10px;
+        border-radius: 0;
+        color: var(--orange-clean-color);
+        background-color: var(--black-color);
+        width: 50px;
+        height: 50px;
+        justify-content: center;
+        align-items: center;
+        z-index: 998;
+    }
+    #navMobile{
+        height: 100vh;
+        width: 100vw;
+        position: fixed;
+        background-color:rgba(0,0,0,0.8);    
+        right: 0;
+        top: 0px;
+        display: none;
+        align-items: center;
+
+    }
+    #navMobile ul{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        width: 100vw;
+        justify-content: center;
+        
+    }
+
+    #navMobile ul li{
+        display: flex;
+        height: 50px;
+        line-height: 50px;
+        padding-left: 15px;
+        justify-content: center;
+    }
+    
+    #navMobile ul li a{
+        color: var(--orange-clean-color);
+        font-weight: bold;
+    }
+
+    #navMobile ul li a:hover{
+       border-bottom: 3px solid var(--orange-clean-color);
+    }
+
+    #whatsapp{
+        right: 10px;
+    }
+
+    #whatsapp .icone{
+        display: flex;
+        width: 80px;
+        height: 80px;   
+        background-color: var(--black-color);
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        color: var(--orange-clean-color);
+        padding: 15px;
+        border-radius: 80px;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    
+    #wapp{
+        width: auto;
+        display: none;
+        position: relative;
+        right: -10px;
+        padding: 5px;
+        border-radius: 7px;
+        background-color: var(--black-color);
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        color: var(--orange-clean-color);
+        z-index: 149;
+    }
+
+    .menu{
+        display: none;
+    }
+
+/* ajusta o banner principal*/
+   #banner .container{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    }
+    #banner .container h2{
+        font-size: 1.8em;
+        padding: 10px;
+    }
+    
+/* ajusta a section info */
+    #info{
+        height: auto;
+    }
+    #info .container{
+      width: 100%;
+    }
+    .infoBox{
+      width: 100%;
+        height: auto;
+    }
+    #info .container .infoBottom .infoBottomContent{
+        padding: 0;
+        margin: 0;
+    }
+    #info .infoBottom .infoBottomContent div{
+      width: 100%;
+        border:0;
+    }
+
+/* ajusta a section content que abrange os cards */
+    #content{
+        margin:300px 0 30px 0;
+    }
+    #cards{
+        
+        max-width:350px;
+    }
+/* ajusta os cards  */
+    .card,
+    .card:hover{
+        margin-left: 0;
+        margin-right: 0;
+        width: 300px;
+        max-width: 330px;
+        
+    }
+.contGeral{
+    flex-direction: column;
+    align-items: center;
+}
+/* ajusta o aside  */
+    aside{
+        margin-top: 30px;
+        margin-left:0;
+        margin-right: 0;
+    }
+    aside .ultimas, 
+    aside .parceiros{
+        min-width: 100%;
+  
+    }
+/* ajusta o responsivo  */
+    #responsivo{
+        height: 800px;
+    }
+    .txt_resp{
+        flex:none;
+        width: 100%;
+    }
+    
+/* ajusta o portfólio  */
+    #portfolio{
+        height: auto;
+        padding: 10px;
+    } 
+/* ajusta o footer  */
+    footer{
+        height: auto;
+        display: flex;   
+        flex-direction: column;
+    }   
+    
+/* ajusta o foo1,2,3  */
+    footer .foo1, 
+    footer .foo2, 
+    footer .foo3{
+        height: auto;
+        display: flex;       
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    } 
+
+    footer .foo1 .container, 
+    footer .foo2 .container, 
+    footer .foo3 .container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;  
+        padding: 3px;
+    }
+
+    footer .foo1 .container .help,
+    footer .foo1 .container .fooLinks,
+    footer .foo1 .container .fooSelo,
+    footer .foo2 .container .left,
+    footer .foo2 .container .middle,
+    footer .foo2 .container .right,
+    footer .foo3 .container .left,
+    footer .foo3 .container .middle,
+    footer .foo3 .container .right{
+        display: flex;
+        max-width:420px;
+        margin: 5px 0;
+        padding: 5px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: auto;  
+    }
+    footer .foo1 .container .help .helpContatcs{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    footer .foo1 .container .help .contacts ul{
+        display: flex;
+        max-width:100%;      
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    footer .foo1 .container .help .btnCallForm{
+        display: flex;
+        max-width:420px;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    footer .foo1 .container .help .helpContatcs .fooHelpTitle{
+        max-width: 420px;
+        justify-content: center;
+        display: flex;
+    }
+    footer .foo2 .container .left ul,
+    footer .foo2 .container .middle ul,
+    footer .foo2 .container .right ul{
+        text-align: center;  
+    }
+    footer .foo3 .container .right p{
+        text-align: center;
+    }
+    .missao,
+    .visao,
+    .valores{
+        margin: 25px 10px 25px 10px;
+    }
+    .missao{
+        margin-top: -50px;
+    }
+    .contentContato{
+        width:100%;
+        padding: 0;
+    }
+    .contForm{
+        max-width: 100%;
+        margin: 0;
+    }
+  .contContato{
+      display: none;
+  }
+ }
+
+/** Medium devices (tablets, 768px and up)*/
+@media (min-width:577px) and (max-width: 768px) { 
+    #content{
+        margin-top:600px;
+    }
+    .card,
+    .card:hover{
+        margin-left: 0;
+        margin-right: 0;
+        width: 250px;
+        max-width: 330px;
+    }
+
+    .missao,
+    .visao,
+    .valores{
+        margin: 50px 10px 25px 10px;
+    }
+    #contato{
+        height: 100%;
+    }
+    .contentContato{
+        height: auto;
+        padding: 20px;
+    }
+
+ }
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width:769px) and (max-width: 992px) { 
+    #info{
+        height: auto;
+    }
+    .infoTop{
+        
+        display: flex;
+        flex-direction: column;
+    }
+    .infoBox{
+        max-width: 100%;
+        height: auto;
+       
+    }
+ }
+
+/* X-Large devices (large desktops, 1200px and up)*/
+@media (min-width: 993px)and(max-width:1200px) { 
+
+    #cards{
+        flex-direction: row;
+        flex: 1;
+    }
+    aside{
+        max-width:350px;
+    }
+
+
+ }
+
+/* XX-Large devices (larger desktops, 1400px and up)
+@media (min-width: 1400px) {  }*/
