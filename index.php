@@ -2,7 +2,6 @@
 require_once('assets/php/includes/head.php');
 ?>
 <body>
-<!-- inicio header -->
 <?php
 $page = "index";
 include ('assets/php/includes/header.php');

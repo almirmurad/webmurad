@@ -23,6 +23,22 @@
      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1039888699751196"
      crossorigin="anonymous"></script>
     <!--fim adsense -->
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TJHRK78"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-C6ZGC6JHFE"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-C6ZGC6JHFE');
+    </script>
+    <!-- End Global site tag (gtag.js) - Google Analytics -->
+
     <!-- facebook pixel-->
         <!-- Meta Pixel Code -->
     <script>
